@@ -13,12 +13,14 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-    "jsxImportSource": "solid-js"
+    "jsxImportSource": "solid-js",
+    "noImplicitAny": false,
   },
   "files": [
     "./node_modules/solid-scripts/types/solid-app.d.ts"
   ],
   "include": [
-    "src"
+    "src",
+    "dist"
   ]
 }

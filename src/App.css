@@ -31,3 +31,10 @@
     transform: rotate(360deg);
   }
 }
+
+.active {
+  color: #60A5FA;
+}
+.active:hover {
+  color: #2563EB !important;
+}
