@@ -1,0 +1,136 @@
+https://github.com/codrops/FullscreenOverlayStyles/blob/master/css/style8.css
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="fixed w-full h-full top-0 left-0 p-10" style="background: rgba(0,0,0,0.1);">
+        <div class="flex flex-col max-w-7xl m-auto">
+            <style>
+                .active::before {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    /* 0.25rem = m-1 in tailwind*/
+                    top: -0.25rem;
+                    left: -0.25rem;
+                    height: calc(100% + 0.5rem);
+                    width: calc(100% + 0.5rem);
+                    background-color: red;
+                    z-index: -1;
+                }
+            </style>
+            <div class="flex flex-row mx-2">
+                <div
+                    class="active relative flex-1 py-2 m-1 cursor-pointer text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Genesis
+                </div>
+                <div
+                    class="flex-1 py-2 m-1 cursor-pointer text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Exodus
+                </div>
+                <div
+                    class="flex-1 py-2 m-1 cursor-pointer text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Leviticus
+                </div>
+                <div
+                    class="flex-1 py-2 m-1 cursor-pointer text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Numbers
+                </div>
+                <div
+                    class="flex-1 py-2 m-1 cursor-pointer text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Deuteronomy
+                </div>
+            </div>
+            <div class="flex flex-row mx-2 bg-blue-800">
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">1</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">2</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">3</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">4</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">5</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">6</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">7</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">8</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">9</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">10</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">11</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">12</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">13</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">14</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">15</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">16</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">17</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">18</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">19</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">20</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">21</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">22</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">23</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">24</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">25</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">26</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">27</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">28</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">29</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">30</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">31</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">32</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">33</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">34</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">35</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">36</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">37</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">38</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">39</div>
+                <div class="m-1 bg-blue-400 hover:bg-blue-300 font-bold text-lg cursor-pointer text-center rounded text-gray-200 hover:text-gray-50"
+                    style="min-width: 2em">40</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

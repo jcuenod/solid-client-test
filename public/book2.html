@@ -1,0 +1,209 @@
+https://github.com/codrops/FullscreenOverlayStyles/blob/master/css/style8.css
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <div perspective: 400px;">
+        <style>
+            .card {
+                transition: transform 500ms ease-in-out;
+                transform-style: preserve-3d;
+                transform: translateX(0) rotateY(0deg) scale(1);
+            }
+
+            .prev {
+                transform: translateX(-200%) rotateY(-45deg) scale(0.01);
+            }
+
+            .next {
+                transform: translateX(200%) rotateY(45deg) scale(0.01);
+            }
+        </style>
+        <div class="card top-0 absolute w-full">
+            <div class="grid grid-cols-4 md:grid-cols-7 gap-2 m-2 md:mx-auto md:my-10"
+                style="width: 960px; max-width: calc(100vw - 1rem);">
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Gen
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Exod
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Lev
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Num
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Deut
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Josh
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Judg
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Ruth
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    1 Sam
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    2 Sam
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    1 Kgs
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    2 Kgs
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    1 Chr
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    2 Chr
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Ezra
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Neh
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Esth
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Job
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Ps
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Prov
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Eccl
+                </div>
+                <div
+                    class="cursor-pointer truncate text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400">
+                    Isa
+                </div>
+            </div>
+        </div>
+        <div class="card next top-0 absolute w-full">
+            <div class="grid grid-cols-5 md:grid-cols-10 gap-2 m-2 md:mx-auto md:my-10"
+                style="width: 960px; max-width: calc(100vw - 1rem);">
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">1</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">2</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">3</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">4</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">5</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">6</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">7</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">8</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">9</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">10</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">11</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">12</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">13</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">14</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">15</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">16</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">17</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">18</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">19</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">20</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">21</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">22</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">23</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">24</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">25</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">26</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">27</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">28</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">29</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">30</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">31</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">32</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">33</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">34</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">35</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">36</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">37</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">38</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">39</div>
+                <div class="text-xl p-4 text-center rounded text-white bg-gray-300 hover:bg-gray-400 cursor-pointer"
+                    style="min-width: 2em">40</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
