@@ -3,7 +3,7 @@ import './App.css';
 import chapter_data from './chapter-text.json'
 import "tailwindcss/tailwind.css"
 import Header from "./components/Header";
-import chapter from "./components/Hebrew";
+import chapter from "./components/HebrewDomless";
 import ChapterNavigation from "./components/ChapterNavigation"
 import adjacentChapter from "./util/adjacentChapter"
 
@@ -15,6 +15,7 @@ import adjacentChapter from "./util/adjacentChapter"
 //    color: #F59E0B; 
 //   }`
 // }
+
 
 
 function App() {
@@ -55,7 +56,6 @@ function App() {
   }
 
   // <button onClick={() => setState({ hotwords: getHotWordsCss() })}>Trigger</button>
-
   return (
     <div class={"App absolute top-0 left-0 w-full h-full " + (state.showNavigate ? "overflow-hidden" : "overflow-y-auto")}>
       <Header
@@ -85,11 +85,12 @@ function App() {
           // innerHTML={chapter(state.chapter.text)}
           >
             {chapter(state.chapterData.text)}
+
           </div>
         </div>
       </div>
-    </div >
-  );
+    </div>
+  )
 }
 
-export default App;
+export default App
